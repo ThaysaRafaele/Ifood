@@ -1,0 +1,307 @@
+/* Estilo para a logo do iFood */
+.logo-ifood {
+    width: 80px; 
+    height: 43px; 
+}
+
+/* Estilo para os cards de pratos */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.responsive-header__logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 62px;
+}
+
+.responsive-header {
+    position: sticky;
+    flex-direction: row;
+    align-items: center;
+    grid-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+    width: 100vw;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 #dcdcdc;
+    top: 0;
+    z-index: 9997;
+    padding: 20px 32px;
+}
+
+.responsive-header .icon-marmita {
+    width: 24px;
+}
+
+.responsive-header__logo .btn-icon {
+    border-radius: 0;
+    width: 62px;
+}
+
+.responsive-header .search-input {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.search-input {
+    width: 100%;
+}
+
+.search-input__field-wrapper .search-input__icon-search {
+    width: 22px;
+    height: 22px;
+}
+
+.search-input__icon-search {
+    width: 24px;
+    height: 24px;
+    color: #ea1d2c; 
+    font-size: 1rem; 
+    position: absolute;
+}
+
+.icon-marmita {
+    display: inline-block;
+    position: relative;
+}
+
+.search-input__form {
+    display: grid;
+    grid-template: 1fr/1fr;
+    height: 40px;
+    position: relative;
+}
+
+.search-input__field {
+    width: 100%;
+    height: 100%;
+    padding-left: 12px;
+    border: none;
+    font-size: 1rem;
+    background-color: #f7f7f7;
+}
+
+.search-input__field-wrapper {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 5px 0 12px;
+    border-radius: 8px;
+    margin-right: 0;
+    width: 100%;
+    position: relative;
+}
+
+.btn-icon.btn-icon--transparent {
+    background: transparent;
+    color: #ea1d2c;
+}
+
+.fa-right-from-bracket{    
+    color: #ea1d2c;
+}
+
+.fa-bag-shopping{    
+    color: #ea1d2c;
+}
+
+.header-cart {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 8px 12px;
+    border-radius: 200px;
+    transition: background-color .3s ease-in-out;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.desktop-category-links__list {
+    min-width: 360px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.desktop-category-links__item+.desktop-category-links__item {
+    margin-left: 16px;
+}
+
+.responsive-header__button-wrapper {
+    display: flex;
+    flex-direction: row;
+    grid-column-gap: 12px;
+    -moz-column-gap: 12px;
+    column-gap: 12px;
+    align-items: center;
+}
+
+.responsive-header__button {
+    padding: 0;
+    cursor: pointer;
+    min-width: 24px;
+    width: 24px;
+    margin: 0;
+}
+
+.desktop-category-links__item--active a {
+    color: #ea1d2c;
+}
+
+.desktop-category-links__item a {
+    height: 100%;
+    font-family: iFood RC Titulos,iFood RC Textos,helvetica,sans-serif;
+    text-decoration: none;
+    color: #717171;
+    font-size: .875rem;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Estilo para o cabeçalho (header) */
+header {
+    display: none;
+    position: sticky;
+    flex-direction: row;
+    align-items: center;
+    grid-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+    width: 100vw;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 #dcdcdc;
+    top: 0;
+    z-index: 9997;
+    padding: 20px 32px;
+    text-align: center;
+}
+
+
+/* Estilo para o rodapé (footer) */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 960px) {
+    header {
+        display: flex; 
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        display: flex; 
+    }
+}
+
+@media only screen and (min-width: 960px){
+    .btn-icon {
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .search-input {
+        max-width: 469px;
+    }
+}
+
+@media only screen and (min-width: 1248px){
+    .search-input {
+        max-width: 420px;
+    }
+}
+
+@media only screen and (min-width: 960px){
+    .search-input {
+        max-width: 320px;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 960px){
+    .search-input__form {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 960px){
+    .search-input__field-wrapper {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .search-input__field {
+        min-width: 440px;
+    }
+}
+
+@media only screen and (min-width: 960px){
+    .search-input__field {
+        display: flex;
+        height: 48px;
+        padding-left: 50px;
+        padding-right: 0;
+        line-height: 1.25em;
+        font-weight: 300;
+        border-radius: 8px;
+        min-width: 320px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .search-input__field {
+        min-width: 440px;
+    }
+}
+
+@media only screen and (min-width: 960px){
+    .search-input__field-wrapper .search-input__icon-search {
+        left: 15px;
+    }
+}
+
+@media only screen and (min-width: 960px){
+    .search-input__icon-search {
+        width: 26px;
+        height: 26px;
+        left: 20px;
+        top: 50%;
+        position: absolute;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+}
+
+@media only screen and (min-width: 960px){
+    .responsive-header {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 960px){
+    a {
+        cursor: pointer;
+    }
+}

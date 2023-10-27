@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Nova Visão do iFood</title>
+        <meta name="description" content="Descubra a revolução do iFood - Uma nova experiência de delivery de alimentos.">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    </head>
+    <body id="main">
+        <!-- <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="responsive-header__logo">
+                    <a class="btn-icon btn-icon--primary btn-icon--size-m btn-icon--transparent" role="link" aria-label="Ir para Home" aria-hidden="false" rel="" href="#main">
+                        <img src="./assets/ifood-43.png" alt="iFood Logo" class="logo-ifood">
+                    </a>                    
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#recursos">Recursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header> -->
+        
+        <header class="responsive-header">
+            <div class="responsive-header__logo logo-ifood-plain">
+                <a class="btn-icon btn-icon--primary btn-icon--size-m btn-icon--transparent" role="link" aria-label="Ir para Home" aria-hidden="false" rel="" href="#main">
+                    <span class="icon-marmita icon-marmita--logo-ifood-plain">
+                        <img src="assets/ifood-43.png" alt="iFood Logo" class="logo-ifood">
+                    </span>
+                </a>
+            </div>
+            <nav data-test-id="desktop-category-selector" class="desktop-category-selector">
+                <div class="desktop-category-selector__horizontal">
+                    <ul class="desktop-category-links__list">
+                        <li class="desktop-category-links__item desktop-category-links__item--active">
+                            <a href="/inicio">Início</a>
+                        </li>
+                        <li class="desktop-category-links__item">
+                            <a href="/restaurantes">Restaurantes</a>
+                        </li>
+                        <li class="desktop-category-links__item">
+                            <a href="/mercados">Mercados</a>
+                        </li>
+                        <li class="desktop-category-links__item">
+                            <a href="/bebidas">Bebidas</a>
+                        </li>
+                        <li class="desktop-category-links__item">
+                            <a href="/farmacia">Farmácias</a>
+                        </li>
+                        <li class="desktop-category-links__item">
+                            <a href="/petshop">Pets</a>
+                        </li>
+                        <li class="desktop-category-links__item">
+                            <a href="/shopping">Shopping</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="search-input">
+                <form class="search-input__form">
+                    <div class="search-input__field-wrapper">
+                        <span class="icon-marmita icon-marmita--search search-input__icon-search">
+                            <i class="fa-solid fa-magnifying-glass search-input__icon-search"></i>
+                        </span>
+                        <input data-test-id="search-input-field" tabindex="0" role="search" type="text" name="q" autocomplete="off" aria-label="Busque por item ou loja" class="search-input__field" placeholder="Busque por item ou loja" value="">
+                    </div>
+                </form>
+            </div>
+            <!-- <button class="delivery-input">
+            </button> -->
+            <div class="responsive-header__button-wrapper">
+                <a class="btn btn--link btn--size-m btn--iconize responsive-header__button" role="link" aria-label="Entrar" target="" rel="" tabindex="0" href="/entrar">
+                    <span class="icon-marmita icon-marmita--sign-in btn__icon">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                    </span>
+                </a>
+                
+                <button class="header-cart" data-test-id="header-cart" aria-label="checkout-label">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </button>
+            </div>
+        </header>
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="prato1.jpg" alt="Prato 1">
+                        <h2>Prato 1</h2>
+                        <p>Descrição do Prato 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <!-- outros pratos -->
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Contato</h4>
+                        <p>E-mail: contato@ifood.com</p>
+                        <p>Telefone de Suporte: (11) 1234-5678</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
